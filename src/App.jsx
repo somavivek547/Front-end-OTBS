@@ -16,7 +16,7 @@ import ManageBookings from "./admin/ManageBookings";
 import AdminProtectedRoute from "./components/AdminProtectedRoute";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Front-end-OTBS">
       <Routes>
 
         {/* User Module */}
