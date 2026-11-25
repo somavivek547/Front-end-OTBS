@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
@@ -6,23 +7,41 @@ function Home() {
     <>
       <Navbar />
 
-      <section className="hero">
+      {/* Hero Section */}
+      <section className="hero hero-cinema">
+        <div className="cinema-overlay"></div>
+
         <div className="hero-content">
-          <h1>Book Your Tickets Easily</h1>
+          <span className="hero-label">
+            🎬 YOUR ENTERTAINMENT DESTINATION
+          </span>
+
+          <h1>
+            Book Your Tickets <span>Easily</span>
+          </h1>
 
           <p>
             Discover movies, concerts and sports events.
             Select your seats and book your tickets online.
           </p>
 
-          <Link to="/events" className="btn">
-            Browse Events
+          <Link to="/events" className="btn browse-btn">
+            Browse Events →
           </Link>
+
+          <div className="hero-decoration">
+            🎟️ &nbsp; 🍿 &nbsp; 🎥
+          </div>
         </div>
       </section>
 
+      {/* Features Section */}
       <section className="features">
         <h2>Why Choose TicketBook?</h2>
+
+        <p className="features-subtitle">
+          Everything you need for an amazing entertainment experience.
+        </p>
 
         <div className="feature-grid">
 
