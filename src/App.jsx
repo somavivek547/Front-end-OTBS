@@ -18,10 +18,11 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import AdminProtectedRoute from "./components/AdminProtectedRoute";
 
 // Admin Pages
-import AdminLogin from "./admin/AdminLogin";
-import AdminDashboard from "./admin/AdminDashboard";
-import ManageEvents from "./admin/ManageEvents";
-import ManageBookings from "./admin/ManageBookings";
+// Correct folder name: Admin (capital A)
+import AdminLogin from "./Admin/AdminLogin";
+import AdminDashboard from "./Admin/AdminDashboard";
+import ManageEvents from "./Admin/ManageEvents";
+import ManageBookings from "./Admin/ManageBookings";
 
 function App() {
   return (
